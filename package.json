@@ -1,0 +1,24 @@
+{
+  "name": "roomrtc-server",
+  "version": "1.0.0",
+  "description": "Server for RoomRtc iOS app demo of WebRTC",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "lab -c -v -L -a code"
+  },
+  "author": "Roxxy Rafael",
+  "license": "MIT",
+  "dependencies": {
+    "boom": "^7.1.x",
+    "hapi": "^17.2.x",
+    "ws": "^4.0.x"
+  },
+  "devDependencies": {
+    "code": "4.0.x",
+    "lab": "13.0.x"
+  }
+}
