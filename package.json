@@ -14,7 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "boom": "^7.1.x",
+    "catbox-memory": "3.1.x",
     "hapi": "^17.2.x",
+    "joi": "^13.1.x",
     "ws": "^4.0.x"
   },
   "devDependencies": {

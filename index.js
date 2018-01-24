@@ -16,6 +16,10 @@ Server.setupServer()
     })
     .then(() => {
 
+        return Server.initializeServer();
+    })
+    .then(() => {
+
         return Server.startServer();
     })
     .then((server) => {
